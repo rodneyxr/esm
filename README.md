@@ -1,5 +1,6 @@
 # Encrypted String Matcher (ESM) Library
 The `EncryptedStringMatcher` class provides encrypted string matching functionality, allowing for the comparison of encrypted strings without exposing their plaintext content. It uses homomorphic encryption, specifically the BFV scheme, to allow for string operations in the encrypted domain.
+This library is particularly useful in situations where data privacy or security is paramount. For instance, it can be used to compare strings stored in encrypted databases without revealing their actual content.
 
 ## Prerequisites
 
